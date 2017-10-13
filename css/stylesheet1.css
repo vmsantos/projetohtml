@@ -1,0 +1,100 @@
+/**
+    Fonte Open Sans do google
+    font-family: 'Open Sans', sans-serif;
+
+ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);;
+    position: fixed; /* sempre aparecendo */
+    top: 0; /* no topo da página */
+    width: 100%; /* com largura total */
+}
+
+/* menu/lista de links */
+.navbar a {
+    font-style: italic;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    margin: 14px;
+    font-size: 14px;
+}
+.navbar a:hover {
+    color: #e1cdaa;
+}
+
+.menuItem{
+    border-right: solid;
+    border-left: solid;
+}
+
+#principal{
+    width: 100%;
+}
+
+#apresent{
+    color: white;
+    text-align: center;
+    margin: 26% 0;
+    height: 100%;
+}
+
+#apresent p {
+    font-style: italic;
+}
+
+#inicio{
+    background-image: url("../images/background1.jpg");
+    height: 1379px;
+    width: 100%;
+    background-size: contain;
+    resize: both;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#portfolio{
+    background-color: white;
+    height: 20em;
+}
+
+#sobre{
+    background-image: url("../images/background2.jpg");
+    height: 1193px;
+    width: 100%;
+    background-size: contain;
+    resize: both;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#pezinho{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
