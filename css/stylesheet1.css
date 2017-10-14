@@ -28,6 +28,11 @@ body {
     width: 100%; /* com largura total */
 }
 
+.divisor{
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}
+
 /* menu/lista de links */
 .navbar a {
     font-style: italic;
@@ -44,52 +49,113 @@ body {
     color: #e1cdaa;
 }
 
-.menuItem{
-    border-right: solid;
-    border-left: solid;
-}
-
-#principal{
+.principal{
     width: 100%;
 }
 
-#apresent{
+.apresent{
     color: white;
     text-align: center;
     margin: 26% 0;
     height: 100%;
 }
 
-#apresent p {
+.apresent p {
     font-style: italic;
 }
 
-#inicio{
+.inicio{
     background-image: url("../images/background1.jpg");
     height: 1379px;
     width: 100%;
     background-size: contain;
-    resize: both;
+    resize: none;
     overflow: hidden;
     background-repeat: no-repeat;
 }
 
-#portfolio{
+.portfolio{
     background-color: white;
-    height: 20em;
+    height: 70em;
 }
 
-#sobre{
+.sobre{
     background-image: url("../images/background2.jpg");
     height: 1193px;
     width: 100%;
     background-size: contain;
-    resize: both;
+    resize: none;
     overflow: hidden;
     background-repeat: no-repeat;
 }
+textarea {
+    height: 10em;
+    width: 35%;
+    resize: none;
+    margin: 1em;
+    padding: 1em;
+    size: 1em;
+    border: 3px solid #e1cdaa ;
+    color: darkgrey;
 
-#pezinho{
+}
+
+input{
+    padding: 1em;
+    width: 35%;
+    margin: 1em;
+    size: 1em;
+    border: 3px solid #e1cdaa ;
+    color: darkgrey;
+
+}
+
+.enviar {
+    background-color: #e1cdaa;
+    color: white;
+    font-style: italic;
+    border: hidden;
+    width: 10em;
+}
+
+.enviar:hover {
+    background-color: #232930;
+    color: white;
+}
+
+
+
+
+
+/* .enviar{
+
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    color: white;
+    background-color: .e1cdaa;
+
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid .4CAF50;
+}
+
+.enviar:hover {
+    background-color: .4CAF50;
+    color: white;
+}
+*/
+
+
+.formulario{
+    text-align: center;
+    padding: 10%;
+}
+
+.pezinho{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -97,4 +163,14 @@ body {
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
+}
+
+wrapper{
+    display: grid;
+    grid-template-columns: 1/3;
+    grid-column-gap: 1em;
+}
+
+wrapper > div {
+   background-color: aquamarine;
 }

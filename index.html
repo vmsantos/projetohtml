@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,75 +10,68 @@
 </head>
 
 <body>
-<div id="principal">
-    <!-- não sei pra que lista??  -->
-    <nav class="navbar">
-        <a href="#contato">Contato</a>
-        <a href="#sobre" class="menuItem">Sobre</a>
-        <a href="#portfolio">Portfólio</a>
-    </nav>
-    <header id="inicio">
-        <div id="apresent">
-            <h1>Oie. Meu nome é João Dão.</h1>
-            <p>Sou um desenvolvedor web front-end top da CJR. Seja bem-vindo ao meu site. Navegue a la vonté! (:</p>
-        </div>
-    </header>
-    <section id="portfolio">
+    <div class="principal">
+        <!-- não sei pra que lista??  -->
+        <nav class="navbar">
+            <div><a href="#contato">Contato</a></div>
+            <div><a class="divisor" href="#sobre">Sobre</a></div>
+            <div><a href="#portfolio">Portfólio</a></div>
+        </nav>
+        <header class="inicio">
+            <div class="apresent">
+                <h1>Oie. Meu nome é João Dão.</h1>
+                <p>Sou um desenvolvedor web front-end top da CJR. Seja bem-vindo ao meu site. Navegue a la vonté! (:</p>
+            </div>
+        </header>
+        <section class="portfolio wrapper">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem explicabo placeat a culpa voluptatibus nobis similique nulla sint et eveniet at, dignissimos id natus obcaecati unde quo tempora quas repellendus!</div>
+        </section>
+        <section class="sobre">
 
-    </section>
-    <section id="sobre">
+        </section>
+        <section class="contato">
+            <div>
 
-    </section>
-    <section id="contato">
-        <div>
+                <form name="formulario">
 
-            <form name="formulario">
+                    <div class="formulario">
 
-                <div class="blocos">
-
-                    <div>
+                        <div>
 
 
-                        <input id="nome" type="text" value="Seu nome"
-                               onfocus="if(this.value==this.defaultValue)this.value='';"
-                               onblur="if(this.value=='')this.value=this.defaultValue;">
+                            <input class="nome" type="text" value="Seu nome">
+
+                        </div>
+
+
+                        <div>
+
+
+                            <input class="email" type="text" value="Seu e-mail">
+
+                        </div>
+
+                        <textarea class="mensagem">Sua mensagem</textarea>
+                        <div><input class="enviar" type="submit" value="Enviar"></div>
+
 
                     </div>
 
 
-                    <div>
+                </form>
 
+            </div>
 
-                        <input id="email" type="text" value="Seu e-mail"
-                               onfocus="if(this.value==this.defaultValue)this.value='';"
-                               onblur="if(this.value=='')this.value=this.defaultValue;">
-
-                    </div>
-
-                    <div class="descricao">
-
-                        <textarea rows="4" cols="20" onfocus="if(this.value==this.defaultValue)this.value='';"
-                                  onblur="if(this.value=='')this.value=this.defaultValue;">Sua mensagem</textarea>
-
-                    </div>
-
-                </div>
-
-                <div id="botoes">
-
-                    <input type="submit" value="Enviar">
-
-                </div>
-
-            </form>
-
-        </div>
-
-    </section>
-    <footer id="pezinho">
-        <p>&copy; 2017 Desenvolvido na CJR por João Dão.</p>
-    </footer>
-</div>
+        </section>
+        <footer class="pezinho">
+            <p>&copy; 2017 Desenvolvclasso na CJR por João Dão.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
