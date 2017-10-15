@@ -371,7 +371,7 @@ input, textarea{
 }
 
 
-.enviar {
+.visitar {
     background-color: #e1cdaa;
     color: white;
     font-style: italic;
@@ -379,7 +379,7 @@ input, textarea{
     width: 8em;
 }
 
-.enviar:hover {
+.visitar:hover {
     background-color: #232930;
     color: white;
 }
