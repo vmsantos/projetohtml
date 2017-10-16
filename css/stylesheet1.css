@@ -1,15 +1,11 @@
 /**
-    Fonte Open Sans do google
+Fonte Open Sans do google
     font-family: 'Open Sans', sans-serif;
-
  */
-/**
-*** SIMPLE GRID
-*** (C) ZACH COLE 2016
-**/
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 
-/* UNIVERSAL */
+
 
 *,
 *:before,
@@ -33,7 +29,6 @@ body {
     font-size: 100%;
 }
 
-/* ROOT FONT STYLES */
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -48,7 +43,7 @@ body {
     font-weight: 700;
 }
 
-/* POSITIONING */
+
 
 .center {
     text-align: center;
@@ -56,7 +51,7 @@ body {
     margin-right: auto;
 }
 
-/* ==== GRID SYSTEM ==== */
+
 
 .container {
     width: 100%;
@@ -70,14 +65,14 @@ body {
 }
 
 @media only screen and (min-width: 33.75em) {
-    /* 540px */
+
     .container {
         width: 80%;
     }
 }
 
 @media only screen and (min-width: 45em) {
-    /* 720px */
+
     .col-6 {
         width: 46%;
     }
@@ -88,7 +83,7 @@ body {
 }
 
 @media only screen and (min-width: 60em) {
-    /* 960px */
+
     .container {
         width: 75%;
         max-width: 60rem;
@@ -395,4 +390,5 @@ input, textarea{
     color: white;
     font-style: italic;
     font-weight: 300;
+    height: 5em;
 }
