@@ -164,6 +164,7 @@ body {
 .wrapper3 {
     display: grid;
     grid-template-columns: 100%;
+    margin: 12% 0 0 0;
 }
 
 .wrapper3 > div{
@@ -179,6 +180,11 @@ body {
 }
 
 .visitar a:link {
+    text-decoration: none;
+    color: #232930;
+}
+
+.visitar a:visited {
     text-decoration: none;
     color: #232930;
 }
@@ -203,6 +209,37 @@ body {
 .visitar:hover a {
     background-color: #232930;
     color: white;
+}
+
+.redessociais{
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    grid-column-gap: 1px;
+    width: 8%;
+    text-align: center;
+    margin: 0 0 10% 0;
+
+}
+
+.faces{
+    background-image: url(../images/facebook.png);
+    background-color: #e1cdaa;
+    width: 20px;
+    height: 16px;
+}
+
+.twitter{
+    background-image: url(../images/twitter.png);
+    background-color: #e1cdaa;
+    width: 20px;
+    height: 16px;
+}
+
+.gplus{
+    background-image: url(../images/googleplus.png);
+    background-color: #e1cdaa;
+    width: 20px;
+    height: 16px;
 }
 
 .footer {
